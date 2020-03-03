@@ -1,5 +1,9 @@
 @import "semantic-ui";
 
+.ui.cards > .card > .extra, .ui.card > .extra {
+  min-height: 4.5em !important;
+}
+
 .flashbox {
   margin-bottom: 1em !important;
 }
