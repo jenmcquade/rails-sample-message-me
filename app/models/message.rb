@@ -3,4 +3,5 @@ class Message < ApplicationRecord
   validates :body,
             presence: true, 
             length: { minimum: 3, maximum: 300 }
+  scope :custom_display, -> { order(:created_at).last(20) }
 end

@@ -11,7 +11,10 @@
 .chatbox {
   height: 450px;
   .scrollable {
-    overflow-y: scroll;
+    overflow-y: auto;
+  }
+  button {
+    display: none;
   }
 }
 
