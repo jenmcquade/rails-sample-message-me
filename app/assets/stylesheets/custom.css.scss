@@ -6,5 +6,8 @@
 
 .chatbox {
   height: 450px;
+  .scrollable {
+    overflow-y: scroll;
+  }
 }
 
