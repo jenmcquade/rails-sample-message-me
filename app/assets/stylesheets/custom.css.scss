@@ -18,3 +18,18 @@
   }
 }
 
+.button a {
+  color: white;
+}
+
+.ui.input input, .ui.input .field_with_errors {
+  width: inherit !important;
+}
+
+.ui.input .field_with_errors input {
+  padding-left: 3em;
+}
+
+.signup-form {
+  text-align: center;
+}
