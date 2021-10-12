@@ -142,7 +142,8 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
     public_suffix (4.0.3)
-    puma (3.12.4)
+    puma (4.3.9)
+      nio4r (~> 2.0)
     rack (2.2.2)
     rack-livereload (0.3.17)
       rack
@@ -246,7 +247,7 @@ DEPENDENCIES
   jquery-rails
   listen (>= 3.0.5, < 3.2)
   pg
-  puma (~> 3.11)
+  puma (~> 4.3)
   rack-livereload
   rails (~> 5.2.4, >= 5.2.4.1)
   redis (~> 4.0)
